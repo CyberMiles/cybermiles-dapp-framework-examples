@@ -76,6 +76,12 @@ https://github.com/CyberMiles/cybermiles-dapp-framework-examples.git
 cd cybermiles-dapp-framework-examples
 cd example_one/src
 npm install
+
+# Starts the app 
+# npm start
+
+# Starts the app in Debug mode (which is what we should use when developing and testing
 DEBUG=$dAppName:* npm start
+
 ```
 

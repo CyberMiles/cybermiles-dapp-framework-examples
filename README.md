@@ -63,7 +63,14 @@ npm install
 
 # Start the application which will be available on port 3000 of the machine
 # http://hostname:3000
+
+
+# Starts the app 
+# npm start
+
+# Starts the app in Debug mode (which is what we should use when developing and testing)
 DEBUG=$dAppName:* npm start
+
 ```
 
 ### Clone "One" and start the application
@@ -78,10 +85,10 @@ cd example_one/src
 npm install
 
 # Starts the app 
-# npm start
+npm start
 
-# Starts the app in Debug mode (which is what we should use when developing and testing
-DEBUG=$dAppName:* npm start
+# Starts the app in Debug mode (which is what we should use when developing and testing)
+# DEBUG=$dAppName:* npm start
 
 ```
 

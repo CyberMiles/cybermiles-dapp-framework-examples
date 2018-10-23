@@ -2,9 +2,9 @@
 
 CyberMiles decentralized applications can now be built by the global CyberMiles community. This repository, a work in progress, contains free DApp framework examples for creating e-commerce prototypes/proof-of-concepts/projects on the CyberMiles blockchain.
 
-## One - Nodejs, Express and Pug (a.k.a Jade)
+## Example one - Nodejs, Express and Pug (a.k.a Jade)
 
-### Build "One" from scratch
+### Build example one from scratch
 
 The following script will create a blank Nodejs and Express example. See https://nodejs.org/en/ and https://expressjs.com/ for further development documentation.
 

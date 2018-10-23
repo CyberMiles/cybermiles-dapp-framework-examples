@@ -20,8 +20,8 @@ sudo apt-get -y upgrade
 sudo apt-get -y install build-essential
 
 # Global variables
-projectFolder="project_folder"
-dAppName="example_one"
+projectFolder="example_one"
+dAppName="src"
 
 # Install Nodejs
 wget -qO- https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -52,6 +52,9 @@ npm init
 
 # Save express permanently to the project
 npm install express --save
+
+# Save CMT Web3 permanently to the project
+npm install web3-cmt --save
 
 # Create the project skeleton using express-generator
 cd ~

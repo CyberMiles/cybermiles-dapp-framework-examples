@@ -76,7 +76,7 @@ DEBUG=$dAppName:* npm start
 
 ```
 
-### Clone "One" and start the application
+### Clone example one and start the application
 
 You can clone and deploy the example called "One" by using the following commands
 

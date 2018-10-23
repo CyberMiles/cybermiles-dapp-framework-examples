@@ -1,9 +1,10 @@
-# cybermiles-dapp-framework-examples
+# CyberMiles DApp Framework Examples
+
 CyberMiles decentralized applications can now be built by the global CyberMiles community. This repository, a work in progress, contains free DApp framework examples for creating e-commerce prototypes/proof-of-concepts/projects on the CyberMiles blockchain.
 
-# Example One - Nodejs and Express
+# "Example One" - Nodejs and Express
 
-## Build example from scratch
+## Build "example one" from scratch
 
 The following script will create a blank Nodejs and Express example. See https://nodejs.org/en/ and https://expressjs.com/ for further development documentation.
 
@@ -32,7 +33,7 @@ sudo apt-get -y install nodejs
 sudo apt-get -y install npm
 sudo npm -y install npm@latest -g
 
-# Initialize - Answer questions similar to below
+# Initialize - Answer questions similar to below, but obviously using your own information
 cd ~
 mkdir $projectFolder
 cd $projectFolder
@@ -64,6 +65,3 @@ npm install
 # http://hostname:3000
 DEBUG=$dAppName:* npm start
 ```
-
-
-## Clone existing example

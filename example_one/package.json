@@ -1,0 +1,22 @@
+{
+  "name": "example_one",
+  "version": "1.0.0",
+  "description": "asdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "asdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asdf"
+  },
+  "keywords": [
+    "asdf"
+  ],
+  "author": "asdf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "web3-cmt": "0.0.3"
+  }
+}

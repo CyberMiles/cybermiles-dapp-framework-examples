@@ -74,7 +74,7 @@ You can clone and deploy the example called "One" by using the following command
 cd ~
 https://github.com/CyberMiles/cybermiles-dapp-framework-examples.git
 cd cybermiles-dapp-framework-examples
-cd example_one
+cd example_one/src
 npm install
 DEBUG=$dAppName:* npm start
 ```

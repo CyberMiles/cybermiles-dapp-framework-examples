@@ -1,0 +1,10 @@
+notes.txt
+
+The following is an example of how we would get the block height from a local synced node (obtained by following the installation script in the README at this location https://github.com/CyberMiles/travis )
+
+Firstly we would need to add code to the index.js file so that we could access the CMT node using web3cmt
+var Web3 = require("web3-cmt")
+var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
+
+We would then execute the following syntax
+web3.eth.getBlock(function(error, result){ if(!error) console.log(JSON.stringify(result)); else	console.log(error); })

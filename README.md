@@ -4,7 +4,7 @@ CyberMiles decentralized applications can now be built by the global CyberMiles 
 
 ## Example one - Nodejs, Express and Pug (a.k.a Jade)
 
-### Build example one from scratch
+### Build example one skeleton from scratch
 
 The following script will create a blank Nodejs and Express example. See https://nodejs.org/en/ and https://expressjs.com/ for further development documentation.
 
@@ -78,7 +78,7 @@ DEBUG=$dAppName:* npm start
 
 ### Clone example one and start the application
 
-You can clone and deploy the example called "One" by using the following commands
+You can clone and deploy this example one source code if you want a head-start. Feel free to build on top of this example; the source code in this repo will continue to grow (as apposed to the above skeleton which will always just be the bare bones of an application to get you started from scratch).
 
 ```
 cd ~
@@ -94,4 +94,6 @@ npm start
 # DEBUG=$dAppName:* npm start
 
 ```
+
+![Screenshot](https://github.com/CyberMiles/cybermiles-dapp-framework-examples/blob/master/images/example_one_screenshot.png)
 

@@ -6,7 +6,9 @@ var logger = require('morgan');
 var favicon = require('serve-favicon')
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var aboutRouter = require('./routes/about');
+//If you want to add pages uncomment this
+//var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -23,7 +25,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.png')))
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/about', aboutRouter);
+//If you want to add pages uncomment this and create users.js in routes and users.pug in views
+//app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

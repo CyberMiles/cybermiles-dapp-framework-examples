@@ -5,6 +5,12 @@ body {
   background-image: url("../images/background.jpg");
 }
 
+h1 {
+    text-shadow: 2px 1px #808080;
+    letter-spacing: 2px;
+}
+
 a {
   color: #FFF;
+  text-decoration: underline;
 }

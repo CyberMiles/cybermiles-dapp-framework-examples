@@ -1,8 +1,10 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  background-image: url("../images/background.jpg");
 }
 
 a {
-  color: #00B7FF;
+  color: #FFF;
 }

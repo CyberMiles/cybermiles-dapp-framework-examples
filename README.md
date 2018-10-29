@@ -81,19 +81,32 @@ DEBUG=$dAppName:* npm start
 You can clone and deploy this example one source code if you want a head-start. Feel free to build on top of this example; the source code in this repo will continue to grow (as apposed to the above skeleton which will always just be the bare bones of an application to get you started from scratch).
 
 ```
+# Install Nodejs
+wget -qO- https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get -y install nodejs
+
+# Install npm
+sudo apt-get -y install npm
+sudo npm -y install npm@latest -g
+
+#Fetch the source code
 cd ~
 https://github.com/CyberMiles/cybermiles-dapp-framework-examples.git
 cd cybermiles-dapp-framework-examples
 cd example_one/src
 npm install
 
-# Starts the app 
+# Start the app 
 npm start
 
 # Starts the app in Debug mode (which is what we should use when developing and testing)
 # DEBUG=$dAppName:* npm start
 
 ```
+
+Visit http://yourHostName:3000
 
 ![Screenshot](https://github.com/CyberMiles/cybermiles-dapp-framework-examples/blob/master/images/example_one_screenshot.png)
 

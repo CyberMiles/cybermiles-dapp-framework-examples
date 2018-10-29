@@ -2,7 +2,6 @@ body {
   padding: 50px;
   font-family: 'Roboto', sans-serif;
   color: #FFF;
-  background-image: url("../images/background.jpg");
 }
 
 h1 {
@@ -14,3 +13,20 @@ a {
   color: #FFF;
   text-decoration: underline;
 }
+
+#gradientBackground {
+    background-color: #2199F3; /* For browsers that do not support gradients */
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: linear-gradient(#2199F3, #67EBFE); /* Standard syntax (must be last) */
+}
+
+
+/*
+Discard
+*/
+
+/*
+background-image: url("../images/background.jpg");
+}
+*/

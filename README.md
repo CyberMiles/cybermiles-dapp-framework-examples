@@ -81,13 +81,24 @@ DEBUG=$dAppName:* npm start
 You can clone and deploy this example one source code if you want a head-start. Feel free to build on top of this example; the source code in this repo will continue to grow (as apposed to the above skeleton which will always just be the bare bones of an application to get you started from scratch).
 
 ```
+# Install Nodejs
+wget -qO- https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get -y install nodejs
+
+# Install npm
+sudo apt-get -y install npm
+sudo npm -y install npm@latest -g
+
+#Fetch the source code
 cd ~
 https://github.com/CyberMiles/cybermiles-dapp-framework-examples.git
 cd cybermiles-dapp-framework-examples
 cd example_one/src
 npm install
 
-# Starts the app 
+# Start the app 
 npm start
 
 # Starts the app in Debug mode (which is what we should use when developing and testing)
@@ -95,21 +106,8 @@ npm start
 
 ```
 
+Visit http://yourHostName:3000
+
 ![Screenshot](https://github.com/CyberMiles/cybermiles-dapp-framework-examples/blob/master/images/example_one_screenshot.png)
 
-### Providing a blockchain for the application to talk to
-
-There is a shell script which will install a CyberMiles testnet node on a local Ubuntu 16.04 LTS instance. This script is located in the README file of the https://github.com/CyberMiles/travis GitHub page.
-
-Once the CyberMiles testnet is synced, the following sort of syntax can be used to talk to the blockchain via the DApp i.e. to get the block height via the DApp's index page, we would firstly need to add this code to the index.js file so that we could access the local CMT node using web3cmt.
-
-```
-var Web3 = require("web3-cmt")
-var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
-```
-
-We would then be able to execute the following function, which would return the block height.
-```
-web3.eth.getBlock(function(error, result){ if(!error) console.log(JSON.stringify(result)); else console.log(error); })
-```
 

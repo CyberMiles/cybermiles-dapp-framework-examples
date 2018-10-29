@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Init custom js
 app.locals.bc = require(path.join(__dirname, 'public', 'javascripts', 'blockchain_client.js'));
-app.locals.web3;
+
 //favicon
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.png')))
 

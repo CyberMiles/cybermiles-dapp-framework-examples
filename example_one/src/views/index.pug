@@ -5,3 +5,6 @@ block content
   p Welcome to the #{name} #{product} #{version}
   - console.log(bc.initBlockchain);
   - bc.initBlockchain();
+  - bc.isConnected();
+  - web3Instance = bc.getBlockchain();
+  - console.log(web3Instance.HttpProvider.host);

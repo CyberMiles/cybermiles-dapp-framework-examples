@@ -3,9 +3,13 @@ var web3 = undefined;
 
 module.exports = {
     initBlockchain: function() {
-        console.log('Initializing connection to the blockchain ...');
-        web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
-        console.log('Success!');
+    	if (typeof web3 == 'undefined') {
+	        console.log('Initializing connection to the blockchain ...');
+	        web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
+	        console.log('Success!');
+	    } else {
+	    	console.log('Already initialized = ' + web3.currentProvider.isConnected());
+	    }
 
         },
     isConnected: function() {

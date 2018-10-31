@@ -1,0 +1,15 @@
+{
+	"contracts": [{
+			"name": "asdf",
+			"abi": "asdf",
+			"bytecode": "asdf",
+			"address": "asdf"
+		},
+		{
+			"name": "asdf2",
+			"abi": "asdf2",
+			"bytecode": "asdf2",
+			"address": "asdf2"
+		}
+	]
+}

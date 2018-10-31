@@ -4,7 +4,7 @@ block content
   h1 #{name}
   p Welcome to the #{name} #{product} #{version}
   - console.log(bc.initBlockchain);
-  - bc.initBlockchain();
-  - bc.isConnected();
-  - web3Instance = bc.getBlockchain();
-  - console.log(web3Instance.HttpProvider);
+  - console.log(bc.initBlockchain());
+  - console.log(bc.isConnected());
+  - console.log(bc.getAccounts());
+  - console.log(bc.isSyncing());
